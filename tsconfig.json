@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
-    "lib": ["ES2020", "ES2015.Promise"],
+    "lib": ["ES2020"],
+    "rootDir": "./src",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
@@ -13,6 +14,6 @@
     "declarationMap": true,
     "sourceMap": true
   },
-  "include": ["src/**/*", "knexfile.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests"]
 }
